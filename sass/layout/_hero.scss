@@ -1,0 +1,48 @@
+.hero{
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right, var(--hero-gradient-color), var(--hero-gradient-color)), url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--background-color);
+    font-family: var(--primary-font-family);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.hero-title{
+    color:var(--white-text-color);
+    width: 696px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hero-button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color:var(--white-text-color);
+    border:0;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: background-color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus{
+    background-color: var(--accent-button-color);
+}
+}
+
