@@ -1,5 +1,7 @@
 .footer-second{
-    margin-left: 72px;
+    @media screen and (min-width:1600px) {
+        margin-left: 72px;
+    }
 }
 .footer-social-icon-list{
     display: flex;
@@ -24,6 +26,9 @@
     &:focus{
     background-color: var(--accent-color);
 }
+    @media screen and (min-width:480px) {
+        margin-bottom: 60px;
+    }
 }
 
 .footer-social{

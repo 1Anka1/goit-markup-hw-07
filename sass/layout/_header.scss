@@ -1,22 +1,24 @@
 .header{
     border-bottom: 1px solid #ECECEC;
-    padding-top: 25px;
-    padding-bottom: 25px;
+
+    @media screen and (min-width:480px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    // padding-top: 25px;
+    // padding-bottom: 25px;
 }
-
-.header-container{
-    display: flex;
-    align-items: center;
-  }
-
+.menu-container{
+    display: none;
+}
 .nav-list{
-    display: flex;
+    // display: flex;
 
     font-family: var(--primary-font-family);
     font-weight: 500;
 
     & list{
-        display: flex;
+        // display: flex;
     }
 }
 

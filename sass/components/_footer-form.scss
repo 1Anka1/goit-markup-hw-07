@@ -3,10 +3,15 @@
 }
 .footer-form-sing-up{
     display: flex;
+
+    @media screen and (min-width:480px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .footer-contact-form-input{
     padding: 15px 16px;
-    min-width: 358px;
+    width: 450px;
     margin-right: 12px;
     color: var(--white-text-color);
 
@@ -18,15 +23,21 @@
     &::placeholder{
         color:rgba(255, 255, 255, 0.6);
     }
+    @media screen and (min-width:480px) {
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width:1600px) {
+        min-width: 385px;
+    }
 }
 
 .sign-up-icon {
     margin-left: 10px;
   }
 .footer-contact-form-submit-btn{
-    display: flex;
-    align-items: center;
-    text-align: center;
+    // display: flex;
+    // align-items: center;
+    // text-align: center;
    
     padding: 10px 32px;
     font-weight: 700;
